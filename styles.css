@@ -1,0 +1,76 @@
+body{
+background-image: url("https://wallpapercave.com/wp/wp1812228.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.Ridle2{
+display:none;
+font-size:25px;
+}
+
+.Response{
+display:none;
+}
+
+.Dipper{
+display:none;
+}
+
+.Question{
+display:none;
+}
+
+.Option{
+display:none;
+    width:400px;
+}
+
+.Yes{
+display:none;
+}
+
+.No{
+display:none;
+}
+
+.QuestOne{
+display:none;
+}
+
+.Click{
+display:none;
+}
+
+.Image{
+display:none;
+width:400px;
+}
+
+p{
+font-family: 'Press Start 2P', cursive;
+color:white;
+font-size:35px;
+}
+
+button{
+font-family: 'Press Start 2P', cursive;
+text-align:center;  
+font-size:30px;
+}
+
+.Ridle{
+display: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.StanRoom{
+width:500px;
+}
+
+.DipmabRoom{
+width:500px;
+}
+
