@@ -1,0 +1,293 @@
+$(".YesOne").click(function(){
+	$(".NoOne").hide();
+    $(".YesOne").hide();
+    $(".Beginning").hide();
+    $(".Dialougue1").show();
+    $(".Havent").show();
+    $(".Have").show();
+      $(".Image").hide();
+      $(".Dipper1").show();
+    });
+
+$(".NoOne").click(function(){
+	$(".NoOne").hide();
+    $(".YesOne").hide();
+    $(".Beginning").hide();
+    $(".No1").show();
+    $(".Image").hide();
+      $(".DipperA").show();
+    });
+
+$(".Havent").click(function(){
+     $(".No").hide();
+       $(".Yes").hide();
+       $(".Dipper").hide();
+       $(".Beginning").hide();
+       $(".Dialougue2").show();
+     $(".Will").show();
+     $(".Wont").show();
+    $(".Image").hide();
+      $(".Dipper2").show();
+    });
+
+$(".Have").click(function(){
+  $(".No").hide();
+       $(".Yes").hide();
+       $(".Dipper").hide();
+       $(".Beginning").hide();
+     $(".No2").show();
+    $(".Image").hide();
+      $(".DipperA").show();
+    });
+
+$(".Will").click(function(){
+  $(".No").hide();
+       $(".Yes").hide();
+       $(".Dipper").hide();
+       $(".Beginning").hide();
+     $(".QuestOne").show();
+    $(".Safe").show();
+    $(".Image").hide();
+      $(".Treasure").show();
+      $(".Safe").show();
+    });
+
+$(".Wont").click(function(){
+  $(".No").hide();
+       $(".Yes").hide();
+       $(".Dipper").hide();
+       $(".Beginning").hide();
+     $(".No2").show();
+    $(".Image").hide();
+      $(".DipperA").text("Thanks anyway!");
+    });
+
+$(".Treasure").click(function(){
+  $(".No").hide();
+       $(".Yes").hide();
+       $(".Dipper").hide();
+       $(".Beginning").hide();
+     $(".Response").hide();
+     $(".Option").hide();
+     $(".Treasure").show();
+    $(".Image").hide();
+    $(".QuestOne").hide();
+    });
+
+$(".Safe").click(function(){
+   $(".No").hide();
+       $(".Yes").hide();
+       $(".Dipper").hide();
+       $(".Beginning").hide();
+        $(".Response").hide();
+     $(".Option").hide();
+        $(".QuestOne").hide();
+     $(".Dialougue3").show();
+    $(".Image").hide();
+      $(".Ridle").fadeIn();
+     $(".Room").show();
+     $(".Bathroom").show();
+     $(".Where2").show();
+    });
+
+$(".Room").dblclick(function(){
+$(".No").hide();
+       $(".Yes").hide();
+       $(".Dipper").hide();
+       $(".Beginning").hide();
+        $(".Response").hide();
+     $(".Option").hide();
+    $(".Question").hide();
+        $(".QuestOne").hide();
+     $(".Dialougue3").show();
+     $(".Where").show();
+     $(".Stan").show();
+        $(".DipRoom").show();
+    $(".Stan").css("width:200px;");
+        $(".DipRoom").css("width:300px;");
+        $(".Image").hide();
+      $(".Ridle").hide();
+    $(".Ridle2").hide();
+});
+
+$(".Bathroom").click(function(){
+  $(".No").hide();
+       $(".Yes").hide();
+       $(".Dipper").hide();
+       $(".Beginning").hide();
+     $(".Response").hide();
+     $(".Option").hide();
+     $(".Treasure1").show();
+    $(".Image").hide();
+    $(".QuestOne").hide();
+    $(".Ridle").hide();
+    $(".Ridle2").show();
+     $(".Question").hide();
+    });
+
+$(".Stan").click(function(){
+   $(".No").hide();
+       $(".Yes").hide();
+       $(".Dipper").hide();
+       $(".Beginning").hide();
+        $(".Response").hide();
+     $(".Option").hide();
+        $(".QuestOne").hide();
+     $(".Question").hide();
+       $(".Ridle").hide();
+        $(".Dialogue4").show();
+        $(".Click").show();
+     $(".Here").hide();
+    $(".Image").hide();
+      $(".Dipper4").show();
+    $(".Ridle").hide();
+      $(".Ridle2").hide();
+    });
+
+$(".DipRoom").click(function(){
+  $(".No").hide();
+       $(".Yes").hide();
+       $(".Dipper").hide();
+       $(".Beginning").hide();
+        $(".Response").hide();
+     $(".Option").hide();
+        $(".QuestOne").hide();
+      $(".Question").hide();
+       $(".Ridle").hide();
+      $(".Dipmab").show();
+     $(".Here").hide();
+    $(".Image").hide();
+    $(".Ridle").hide();
+      $(".Ridle2").hide();
+    });
+
+$(".Click").click(function(){
+    $(".No").hide();
+       $(".Yes").hide();
+       $(".Dipper").hide();
+       $(".Beginning").hide();
+        $(".Response").hide();
+     $(".Option").hide();
+        $(".QuestOne").hide();
+      $(".Click").hide();
+       $(".Dialogue6").show();
+      $(".Bed").show();
+       $(".Rug").show();
+    $(".Papers").show();
+    $(".Image").hide();
+    $(".Ridle").hide();
+      $(".Ridle2").hide();
+    });
+
+$(".Bed").click(function(){
+  $(".No").hide();
+       $(".Yes").hide();
+       $(".Dipper").hide();
+       $(".Beginning").hide();
+        $(".Response").hide();
+     $(".Option").hide();
+        $(".QuestOne").hide();
+     $(".Click").hide();
+     $(".Bed2").show();
+     $(".Here").hide();
+    $(".Image").hide();
+      $(".Dipper6").show();
+    $(".Ridle").hide();
+      $(".Ridle2").hide();
+    });
+
+$(".Rug").click(function(){
+   $(".No").hide();
+       $(".Yes").hide();
+       $(".Dipper").hide();
+       $(".Beginning").hide();
+        $(".Response").hide();
+     $(".Option").hide();
+        $(".QuestOne").hide();
+    $(".Click").hide();
+     $(".Rug2").show();
+    $(".Here").show();
+    $(".Image").hide();
+      $(".Dipper7").show();
+    $(".Ridle").hide();
+      $(".Ridle2").hide();
+    });
+
+$(".Papers").click(function(){
+    $(".No").hide();
+       $(".Yes").hide();
+       $(".Dipper").hide();
+       $(".Beginning").hide();
+        $(".Response").hide();
+     $(".Option").hide();
+        $(".QuestOne").hide();
+     $(".Here").hide();
+     $(".Papers2").show();
+    $(".Image").hide();
+      $(".Dipper8").show();
+    $(".Ridle").hide();
+      $(".Ridle2").hide();
+    });
+
+$(".Here").click(function(){
+    $(".No").hide();
+       $(".Yes").hide();
+       $(".Dipper").hide();
+       $(".Beginning").hide();
+        $(".Response").hide();
+     $(".Option").hide();
+        $(".QuestOne").hide();
+     $(".Ending").show();
+    $(".Image").hide();
+      $(".Hat").show();
+    $(".Grappling").show();
+      $(".Jar").show();
+    $(".Ridle").hide();
+      $(".Ridle2").hide();
+    $(".Pick4").show();
+    });
+
+$(".Hat").dblclick(function(){
+    $(".No").hide();
+       $(".Yes").hide();
+       $(".Dipper").hide();
+       $(".Beginning").hide();
+        $(".Response").hide();
+     $(".Option").hide();
+        $(".QuestOne").hide();
+    $(".Image").hide();
+    $(".Ridle").hide();
+      $(".Ridle2").hide();
+    $(".Gif1").show();
+     $(".Gif1").css("width:400px;");
+    });
+
+$(".Grappling").dblclick(function(){
+    $(".No").hide();
+       $(".Yes").hide();
+       $(".Dipper").hide();
+       $(".Beginning").hide();
+        $(".Response").hide();
+     $(".Option").hide();
+        $(".QuestOne").hide();
+    $(".Image").hide();
+    $(".Ridle").hide();
+      $(".Ridle2").hide();
+    $(".Gif2").show();
+     $(".Gif2").css("width:400px;");
+    });
+
+$(".Jar").dblclick(function(){
+    $(".No").hide();
+       $(".Yes").hide();
+       $(".Dipper").hide();
+       $(".Beginning").hide();
+        $(".Response").hide();
+     $(".Option").hide();
+        $(".QuestOne").hide();
+    $(".Image").hide();
+    $(".Ridle").hide();
+      $(".Ridle2").hide();
+    $(".Gif3").show();
+   $(".Gif3").css("width:400px;");
+    });
